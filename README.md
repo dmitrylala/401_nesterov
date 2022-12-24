@@ -27,7 +27,11 @@ cd Server && dotnet build && dotnet run
 cd WindowApp && dotnet build && dotnet run
 ```
 
+![desk_example](images/desktop_example.png) ![desk_db_example](images/desktop_db_example.png)
+
 Также реализован клиент в веб-браузере на python3 с помощью библиотеки streamlit (нужен poetry):
 ```
 cd WebApp && poetry install && poetry run startup
 ```
+
+![web_example](images/web_example.png) ![web_db_example](images/web_db_example.png)
